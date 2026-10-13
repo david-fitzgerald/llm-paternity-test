@@ -14,6 +14,10 @@ detection signals are *inputs*; assay owns the measurement layer.
 > method failed. If the open question below is your kind of problem, this repo is written so you
 > can pick it up. The full reasoning trail is in [`research-log.md`](research-log.md).
 
+## Attribution
+
+For those who care about such things, the majority of the analysis and code in this repo was produced by Claude Opus 4.8 (Anthropic), with David Fitzgerald guiding Claude, providing insights, direction and critical review throughout the process.
+
 ## What we found
 
 ### 1. Active marking works and survives laundering
