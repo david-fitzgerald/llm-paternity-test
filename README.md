@@ -1,4 +1,4 @@
-# assay
+# llm-paternity-test
 
 LLM distillation detection: keyed fake facts survive paraphrase laundering (10.4σ) where token watermarks fail (4.4σ)
 
