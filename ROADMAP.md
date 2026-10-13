@@ -16,8 +16,10 @@ teacher's outputs, distill a student, detect it at a bounded false-positive rate
 - **trap-street** reference marker (keyed fabricated facts) — survives paraphrase-laundering
   (10.4σ) where token watermarks die (4.4σ); the mark is the *claim*, not the tokens.
 - **decoy-key empirical null** — the load-bearing calibration. An uncalibrated detector
-  convicts an innocent model at p≈10⁻¹³³; calibrated, the innocent reads ~0.7σ.
-- Validated through a 6-test adversarial gauntlet (5 pass + 1 documented robustness limit).
+  convicts an innocent model (untrained distilgpt2) at p≈10⁻¹³³; calibrated, the same model reads 0.84σ.
+- Validated through a 6-test adversarial gauntlet: 4 passes and 2 limits. Limits: dilution
+  (below the 6σ bar at a 6.0% trap fraction) and heavy continued fine-tuning (below 6σ after
+  2 clean epochs).
 
 ## The ceiling active marking hits
 
